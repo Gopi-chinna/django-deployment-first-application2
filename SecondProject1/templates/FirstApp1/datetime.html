@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date & Time page</title>
+    <style>
+        body{
+            background-color: greenyellow;
+            color: blue;
+        }
+        h1{
+            text-align: center;
+            color: red;
+            background-color: lightskyblue;
+        }
+        h2{
+            border: 3px solid brown;
+            border-radius: 5px;
+            background-color: papayawhip;
+            text-align: center;
+            width: 50%;
+
+        }
+        li{
+            border: 3px solid red;
+            border-radius: 5px;
+            background-color: papayawhip;
+            text-align: center;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Hello from server current Date and Time with Student Template : <br/>
+        {{Gopi}} <br/><br/>
+        {{Vedan}}
+    </h1>
+    <hr/>
+    <h2>Student Details</h2>
+    <ol type="i">
+        <li>Rollno:{{ rollno }}</li>
+        <li>Student Name:{{ sname }}</li>
+        <li>Marks:{{ marks }}</li>
+    </ol>
+</body>
+</html>
